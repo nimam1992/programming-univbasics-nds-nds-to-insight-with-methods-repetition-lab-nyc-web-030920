@@ -38,8 +38,8 @@ end
 
 def total_gross(source)
   grand_total = 0
-  director_array = []
-  director_array << list_of_directors(source)
+  director_array = 
+  director_array = list_of_directors(source)
   #
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
