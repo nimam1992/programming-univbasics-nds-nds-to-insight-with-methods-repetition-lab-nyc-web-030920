@@ -43,7 +43,7 @@ def total_gross(source)
   director_array = list_of_directors(source)
   hash = directors_totals(source)
   while dir_index < director_array.length do
-  numbers << hash[director_array[dir_index]]
+  grand_total += hash[director_array[dir_index]]
   dir_index+=1
   end
   #
