@@ -38,8 +38,9 @@ end
 
 def total_gross(source)
   grand_total = 0
-  director_array = 0
+  dir_index = 0
   director_array = list_of_directors(source)
+  while dir_index < director_array.length
   #
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
