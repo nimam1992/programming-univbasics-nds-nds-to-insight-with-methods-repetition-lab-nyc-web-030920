@@ -38,11 +38,10 @@ end
 
 def total_gross(source)
   grand_total = 0
-  result = {}
   dir_index = 0
   director_array = list_of_directors(source)
   while dir_index < director_array.length do
-    result[director_array[dir_index]] = directors_totals(source)
+    grand_total += director_array[dir_index][directors_totals(source)]
     dir_index+=1
   end
   #
