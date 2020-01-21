@@ -31,8 +31,9 @@ def list_of_directors(source)
   director = 0
   while director < source.length do
     result << source[director]
+    director+=1
   end
-  director+=1
+  result
 end
 
 def total_gross(source)
