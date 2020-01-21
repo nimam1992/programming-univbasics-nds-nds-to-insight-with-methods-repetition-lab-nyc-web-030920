@@ -42,7 +42,7 @@ def total_gross(source)
   dir_index = 0
   director_array = list_of_directors(source)
   while dir_index < director_array.length do
-    result[array[dir_index]] = directors_totals(source)
+    result[director_array[dir_index]] = directors_totals(source)
     dir_index+=1
   end
   #
@@ -56,4 +56,4 @@ def total_gross(source)
   result
 end
 
-pp directors_database
+
