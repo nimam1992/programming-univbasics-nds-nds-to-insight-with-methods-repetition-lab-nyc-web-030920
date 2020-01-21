@@ -55,5 +55,3 @@ def total_gross(source)
   # return the total
   result
 end
-
-
